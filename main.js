@@ -1,5 +1,5 @@
-const btn = document.querySelector('.btn')
-const img = document.querySelector('.lamp')
+const btn = document.querySelectorAll('.btn')
+const img = document.querySelectorAll('.lamp')
 let onFire = false
 btn.addEventListener("click", function () {
     if (onFire) {
